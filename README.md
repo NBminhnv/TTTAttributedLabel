@@ -49,7 +49,25 @@ As of version 1.10.0, `TTTAttributedLabel` supports VoiceOver through the  `UIAc
 
 ## Installation
 
-[CocoaPods](https://cocoapods.org/) is the recommended method of installing `TTTAttributedLabel`. Simply add the following line to your `Podfile`:
+### Swift Package Manager
+
+Add `TTTAttributedLabel` as a dependency in your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/TTTAttributedLabel/TTTAttributedLabel.git", from: "2.0.0")
+]
+```
+
+Or in Xcode, go to **File → Add Package Dependencies…** and enter the repository URL:
+
+```
+https://github.com/TTTAttributedLabel/TTTAttributedLabel.git
+```
+
+### CocoaPods
+
+[CocoaPods](https://cocoapods.org/) is another method of installing `TTTAttributedLabel`. Simply add the following line to your `Podfile`:
 
 ```ruby
 # Podfile
